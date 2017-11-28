@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/PdrAndPul.iml" filepath="$PROJECT_DIR$/PdrAndPul.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pdrandpullibrary/pdrandpullibrary.iml" filepath="$PROJECT_DIR$/pdrandpullibrary/pdrandpullibrary.iml" />
+    </modules>
+  </component>
+</project>

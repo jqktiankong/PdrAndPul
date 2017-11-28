@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.jqk.pdrandpullibrary.view.PdrAndPulView
+        android:id="@+id/pdrAndPulView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical">
+
+        <include layout="@layout/view_reflesh"></include>
+
+
+        <com.jqk.pdrandpullibrary.pullview.PullableFrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.jqk.pdrandpullibrary.view.RippleView
+                android:id="@+id/recyclerview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:rv_rippleDuration="200"
+                app:rv_type="rectangle">
+
+                <Button
+                    android:id="@+id/button"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:background="@drawable/bg_button"
+                    android:clickable="false"
+                    android:longClickable="false"
+                    android:text="recyclerview" />
+            </com.jqk.pdrandpullibrary.view.RippleView>
+
+        </com.jqk.pdrandpullibrary.pullview.PullableFrameLayout>
+
+        <include layout="@layout/view_loadmore"></include>
+
+    </com.jqk.pdrandpullibrary.view.PdrAndPulView>
+</LinearLayout>

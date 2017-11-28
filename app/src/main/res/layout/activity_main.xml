@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.jqk.pdrandpul.activity.MainActivity">
+
+    <com.jqk.pdrandpullibrary.view.RippleView
+        android:id="@+id/frameLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:rv_rippleDuration="200"
+        app:rv_type="rectangle">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_button"
+            android:clickable="false"
+            android:longClickable="false"
+            android:text="framelayout" />
+    </com.jqk.pdrandpullibrary.view.RippleView>
+
+    <com.jqk.pdrandpullibrary.view.RippleView
+        android:id="@+id/recyclerview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:rv_rippleDuration="200"
+        app:rv_type="rectangle">
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_button"
+            android:clickable="false"
+            android:longClickable="false"
+            android:text="recyclerview" />
+    </com.jqk.pdrandpullibrary.view.RippleView>
+
+    <com.jqk.pdrandpullibrary.view.RippleView
+        android:id="@+id/nestedscrollview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:rv_rippleDuration="100"
+        app:rv_type="rectangle">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_button"
+            android:clickable="false"
+            android:longClickable="false"
+            android:text="nestedscrollview" />
+    </com.jqk.pdrandpullibrary.view.RippleView>
+</LinearLayout>
